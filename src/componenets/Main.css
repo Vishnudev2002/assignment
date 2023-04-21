@@ -1,0 +1,123 @@
+.main {
+  background-color: #111725;
+  color: #fff;
+  margin-top: 3px;
+  height: 91.7vh;
+  padding: 8rem;
+  z-index: 0;
+}
+
+.upperPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputName label{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.inputName input{
+    padding: 11px 13px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.upperPart img {
+  height: 18rem;
+}
+
+.right p {
+  text-align: center;
+}
+ .uploadFiles{
+    margin-top: 25px;
+ }
+
+ .uploadFiles h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+.inputFile{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.inputFile label {
+  padding: 5px 8px;
+  background-color: #4e34e0;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.inputFile label:nth-child(5){
+  padding: 5px 22px;
+}
+
+.inputFile input {
+  display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4e34e0;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+button{
+    display: block;
+    padding: 10px 40px;
+    margin-top: 20px;
+    background: linear-gradient(60deg, rgba(135,57,225,.5) 30%, rgba(153,72,202,1) 70%, rgba(228,137,108,1) 10%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    opacity: .8;
+    cursor: pointer;
+  }
+
+  .progressBar{
+    height: 9px;
+    background-color: #fff;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+  
+  .progressBar p{
+    height: 9px;
+    width: 30%;
+    background-color: #4e34e0;
+    border-radius: 6px;
+  }
+
+
+  .heading p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px;
+  }
+
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:55px;
+  }
