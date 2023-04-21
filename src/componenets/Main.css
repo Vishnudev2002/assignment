@@ -2,9 +2,9 @@
   background-color: #111725;
   color: #fff;
   margin-top: 3px;
-  height: 91.7vh;
+  height: 93vh;
   padding: 8rem;
-  z-index: 0;
+  margin-top: 3rem;
 }
 
 .upperPart {
@@ -13,25 +13,25 @@
   align-items: center;
 }
 
-.inputName label{
-    display: flex;
-    font-size: 18px;
-    margin-bottom: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.inputName label {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.inputName input{
-    padding: 11px 13px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 2px;
+.inputName input {
+  padding: 11px 16px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 2px;
 }
 
-::placeholder{
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+::placeholder {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .upperPart img {
   height: 18rem;
@@ -40,17 +40,18 @@
 .right p {
   text-align: center;
 }
- .uploadFiles{
-    margin-top: 25px;
- }
+.uploadFiles {
+  margin-top: 25px;
+}
 
- .uploadFiles h4{
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
-.inputFile{
-    margin-top: 15px;
-    margin-bottom: 30px;
+.uploadFiles h4 {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.inputFile {
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .inputFile label {
@@ -63,7 +64,7 @@
   cursor: pointer;
 }
 
-.inputFile label:nth-child(5){
+.inputFile label:nth-child(5) {
   padding: 5px 22px;
 }
 
@@ -71,53 +72,82 @@
   display: none;
 }
 
-a{
-    text-decoration: none;
-    color: #4e34e0;
+a {
+  text-decoration: none;
+  color: #4e34e0;
 }
 
-a:hover{
-    text-decoration:underline;
+a:hover {
+  text-decoration: underline;
 }
 
-button{
-    display: block;
-    padding: 10px 40px;
-    margin-top: 20px;
-    background: linear-gradient(60deg, rgba(135,57,225,.5) 30%, rgba(153,72,202,1) 70%, rgba(228,137,108,1) 10%);
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    opacity: .8;
-    cursor: pointer;
-  }
+button {
+  display: block;
+  padding: 10px 40px;
+  margin-top: 20px;
+  background: linear-gradient(
+    60deg,
+    rgba(135, 57, 225, 0.5) 30%,
+    rgba(153, 72, 202, 1) 70%,
+    rgba(228, 137, 108, 1) 10%
+  );
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 
-  .progressBar{
-    height: 9px;
-    background-color: #fff;
-    width: 300px;
-    margin-top: 20px;
-    border-radius: 6px;
-    margin-bottom: 5px;
-  }
-  
-  .progressBar p{
-    height: 9px;
-    width: 30%;
-    background-color: #4e34e0;
-    border-radius: 6px;
-  }
+button:hover {
+  opacity: 0.5;
+}
 
+.progressBar {
+  height: 9px;
+  background-color: #fff;
+  width: 320px;
+  margin-top: 20px;
+  border-radius: 6px;
+  position: relative;
+  margin-bottom: 5px;
+}
 
-  .heading p{
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 15px;
-  }
+.top {
+  position: absolute;
+  top: -50%;
+  font-size: 1px;
+  padding: 4px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  margin-left: 8px;
+}
 
-  .image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:55px;
-  }
+.down {
+  position: absolute;
+  bottom: -50%;
+  font-size: 1px;
+  padding: 4px;
+  background-color: #fff;
+  margin-right: 25px;
+  transform: rotate(45deg);
+  margin-left: 8px;
+}
+
+.progressBar p {
+  height: 9px;
+  width: 25%;
+  background-color: #4e34e0;
+  border-radius: 6px;
+}
+
+.heading p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 15px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
